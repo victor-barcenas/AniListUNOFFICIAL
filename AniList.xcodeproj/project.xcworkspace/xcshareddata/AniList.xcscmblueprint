@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5FC9D9F652034BDB9CD2446E647887F2B0E30BAF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5FC9D9F652034BDB9CD2446E647887F2B0E30BAF" : 9223372036854775807,
+    "D398EEF53326B291C54D624128EED9A6990E9A95" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9C239CE0-9226-407B-B00C-096ABF3001D6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5FC9D9F652034BDB9CD2446E647887F2B0E30BAF" : "AniList\/",
+    "D398EEF53326B291C54D624128EED9A6990E9A95" : "..\/..\/Desktop\/Softtek\/Interno\/Development\/Mobile\/iOS\/softtek_rides_ios"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AniList",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AniList.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:victor-barcenas\/AniListUNOFFICIAL.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5FC9D9F652034BDB9CD2446E647887F2B0E30BAF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "stkgitams.cloudapp.net:diegof.macias\/softtek_rides_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D398EEF53326B291C54D624128EED9A6990E9A95"
+    }
+  ]
+}

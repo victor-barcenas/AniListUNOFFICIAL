@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC5C96041EA46B24006E7A50 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5C96021EA46B24006E7A50 /* Alamofire.framework */; };
+		EC5C96051EA46B24006E7A50 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5C96031EA46B24006E7A50 /* AlamofireImage.framework */; };
+		EC5C960A1EA46E8E006E7A50 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5C96091EA46E8E006E7A50 /* Config.swift */; };
+		EC5C960D1EA4722C006E7A50 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5C960C1EA4722C006E7A50 /* User.swift */; };
+		EC5C96111EA47303006E7A50 /* RESTClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5C960F1EA47303006E7A50 /* RESTClient.swift */; };
+		EC5C96121EA47303006E7A50 /* RESTClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5C96101EA47303006E7A50 /* RESTClientDelegate.swift */; };
+		EC5C96141EA473CF006E7A50 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5C96131EA473CF006E7A50 /* ActivityIndicatorView.swift */; };
+		EC5C96161EA47B34006E7A50 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5C96151EA47B34006E7A50 /* Messages.swift */; };
+		EC5C96181EA47BC4006E7A50 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5C96171EA47BC4006E7A50 /* Helpers.swift */; };
+		EC5C961A1EA47E42006E7A50 /* AuthenticationCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5C96191EA47E42006E7A50 /* AuthenticationCodeVC.swift */; };
+		EC5C961D1EA48669006E7A50 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC5C961C1EA48669006E7A50 /* Info.plist */; };
 		EC91AC5F1EA01FFC00D58BDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC91AC5E1EA01FFC00D58BDE /* AppDelegate.swift */; };
-		EC91AC611EA01FFC00D58BDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC91AC601EA01FFC00D58BDE /* ViewController.swift */; };
+		EC91AC611EA01FFC00D58BDE /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC91AC601EA01FFC00D58BDE /* Login.swift */; };
 		EC91AC641EA01FFC00D58BDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC91AC621EA01FFC00D58BDE /* Main.storyboard */; };
 		EC91AC671EA01FFC00D58BDE /* AniList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC91AC651EA01FFC00D58BDE /* AniList.xcdatamodeld */; };
 		EC91AC691EA01FFC00D58BDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC91AC681EA01FFC00D58BDE /* Assets.xcassets */; };
@@ -16,14 +27,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC5C96021EA46B24006E7A50 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
+		EC5C96031EA46B24006E7A50 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = SOURCE_ROOT; };
+		EC5C96091EA46E8E006E7A50 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Config.swift; path = SupportingFiles/Config.swift; sourceTree = "<group>"; };
+		EC5C960C1EA4722C006E7A50 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Classes/User.swift; sourceTree = "<group>"; };
+		EC5C960F1EA47303006E7A50 /* RESTClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RESTClient.swift; path = Classes/RESTClient/RESTClient.swift; sourceTree = "<group>"; };
+		EC5C96101EA47303006E7A50 /* RESTClientDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RESTClientDelegate.swift; path = Classes/RESTClient/RESTClientDelegate.swift; sourceTree = "<group>"; };
+		EC5C96131EA473CF006E7A50 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorView.swift; path = Classes/ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		EC5C96151EA47B34006E7A50 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Messages.swift; path = Classes/Messages.swift; sourceTree = "<group>"; };
+		EC5C96171EA47BC4006E7A50 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = ../../../../Desktop/Softtek/Interno/Development/Mobile/iOS/softtek_rides_ios/SofttekRides/Classes/Helpers.swift; sourceTree = "<group>"; };
+		EC5C96191EA47E42006E7A50 /* AuthenticationCodeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthenticationCodeVC.swift; path = ViewControllers/AuthenticationCodeVC.swift; sourceTree = "<group>"; };
+		EC5C961C1EA48669006E7A50 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC91AC5B1EA01FFC00D58BDE /* AniList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AniList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC91AC5E1EA01FFC00D58BDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC91AC601EA01FFC00D58BDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC91AC601EA01FFC00D58BDE /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		EC91AC631EA01FFC00D58BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC91AC661EA01FFC00D58BDE /* AniList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AniList.xcdatamodel; sourceTree = "<group>"; };
 		EC91AC681EA01FFC00D58BDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC91AC6B1EA01FFC00D58BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EC91AC6D1EA01FFC00D58BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +52,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5C96041EA46B24006E7A50 /* Alamofire.framework in Frameworks */,
+				EC5C96051EA46B24006E7A50 /* AlamofireImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC5C96011EA46B03006E7A50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC5C96021EA46B24006E7A50 /* Alamofire.framework */,
+				EC5C96031EA46B24006E7A50 /* AlamofireImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC5C96061EA46D13006E7A50 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				EC5C961C1EA48669006E7A50 /* Info.plist */,
+				EC91AC681EA01FFC00D58BDE /* Assets.xcassets */,
+				EC91AC5E1EA01FFC00D58BDE /* AppDelegate.swift */,
+				EC91AC651EA01FFC00D58BDE /* AniList.xcdatamodeld */,
+				EC5C96091EA46E8E006E7A50 /* Config.swift */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		EC5C96071EA46E06006E7A50 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EC91AC621EA01FFC00D58BDE /* Main.storyboard */,
+				EC91AC6A1EA01FFC00D58BDE /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		EC5C96081EA46E47006E7A50 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC91AC601EA01FFC00D58BDE /* Login.swift */,
+				EC5C96191EA47E42006E7A50 /* AuthenticationCodeVC.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EC5C960B1EA471F8006E7A50 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EC5C960C1EA4722C006E7A50 /* User.swift */,
+				EC5C96171EA47BC4006E7A50 /* Helpers.swift */,
+				EC5C96151EA47B34006E7A50 /* Messages.swift */,
+				EC5C96131EA473CF006E7A50 /* ActivityIndicatorView.swift */,
+				EC5C960E1EA472ED006E7A50 /* RESTClient */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		EC5C960E1EA472ED006E7A50 /* RESTClient */ = {
+			isa = PBXGroup;
+			children = (
+				EC5C960F1EA47303006E7A50 /* RESTClient.swift */,
+				EC5C96101EA47303006E7A50 /* RESTClientDelegate.swift */,
+			);
+			name = RESTClient;
+			sourceTree = "<group>";
+		};
 		EC91AC521EA01FFC00D58BDE = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +139,11 @@
 		EC91AC5D1EA01FFC00D58BDE /* AniList */ = {
 			isa = PBXGroup;
 			children = (
-				EC91AC5E1EA01FFC00D58BDE /* AppDelegate.swift */,
-				EC91AC601EA01FFC00D58BDE /* ViewController.swift */,
-				EC91AC621EA01FFC00D58BDE /* Main.storyboard */,
-				EC91AC681EA01FFC00D58BDE /* Assets.xcassets */,
-				EC91AC6A1EA01FFC00D58BDE /* LaunchScreen.storyboard */,
-				EC91AC6D1EA01FFC00D58BDE /* Info.plist */,
-				EC91AC651EA01FFC00D58BDE /* AniList.xcdatamodeld */,
+				EC5C96071EA46E06006E7A50 /* Storyboards */,
+				EC5C96081EA46E47006E7A50 /* ViewControllers */,
+				EC5C960B1EA471F8006E7A50 /* Classes */,
+				EC5C96061EA46D13006E7A50 /* Supporting files */,
+				EC5C96011EA46B03006E7A50 /* Frameworks */,
 			);
 			path = AniList;
 			sourceTree = "<group>";
@@ -77,6 +158,7 @@
 				EC91AC571EA01FFC00D58BDE /* Sources */,
 				EC91AC581EA01FFC00D58BDE /* Frameworks */,
 				EC91AC591EA01FFC00D58BDE /* Resources */,
+				EC5C961B1EA4804D006E7A50 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -126,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5C961D1EA48669006E7A50 /* Info.plist in Resources */,
 				EC91AC6C1EA01FFC00D58BDE /* LaunchScreen.storyboard in Resources */,
 				EC91AC691EA01FFC00D58BDE /* Assets.xcassets in Resources */,
 				EC91AC641EA01FFC00D58BDE /* Main.storyboard in Resources */,
@@ -134,14 +217,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EC5C961B1EA4804D006E7A50 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC91AC571EA01FFC00D58BDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EC91AC671EA01FFC00D58BDE /* AniList.xcdatamodeld in Sources */,
-				EC91AC611EA01FFC00D58BDE /* ViewController.swift in Sources */,
+				EC5C96161EA47B34006E7A50 /* Messages.swift in Sources */,
+				EC5C960A1EA46E8E006E7A50 /* Config.swift in Sources */,
+				EC5C96181EA47BC4006E7A50 /* Helpers.swift in Sources */,
+				EC91AC611EA01FFC00D58BDE /* Login.swift in Sources */,
+				EC5C96141EA473CF006E7A50 /* ActivityIndicatorView.swift in Sources */,
+				EC5C961A1EA47E42006E7A50 /* AuthenticationCodeVC.swift in Sources */,
+				EC5C960D1EA4722C006E7A50 /* User.swift in Sources */,
+				EC5C96111EA47303006E7A50 /* RESTClient.swift in Sources */,
 				EC91AC5F1EA01FFC00D58BDE /* AppDelegate.swift in Sources */,
+				EC5C96121EA47303006E7A50 /* RESTClientDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,10 +373,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AniList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.victor.barcenas.AniList;
+				PRODUCT_BUNDLE_IDENTIFIER = com.victor.barcenas.AniListUNOFFICIAL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -276,10 +392,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AniList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.victor.barcenas.AniList;
+				PRODUCT_BUNDLE_IDENTIFIER = com.victor.barcenas.AniListUNOFFICIAL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -303,6 +426,7 @@
 				EC91AC721EA01FFC00D58BDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
